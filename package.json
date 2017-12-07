@@ -1,0 +1,25 @@
+{
+  "name": "react-es6-advanced-playground",
+  "version": "1.0.0",
+  "description": "Playground for advanced React features",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviralmishra/react-es6-advanced-playground.git"
+  },
+  "keywords": [
+    "React",
+    "ES6",
+    "Jest",
+    "Webpack"
+  ],
+  "author": "Aviral Mishra (aviral.mishra@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviralmishra/react-es6-advanced-playground/issues"
+  },
+  "homepage": "https://github.com/aviralmishra/react-es6-advanced-playground#readme"
+}
