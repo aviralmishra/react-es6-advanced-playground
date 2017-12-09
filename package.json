@@ -5,18 +5,14 @@
   "main": "app.js",
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aviralmishra/react-es6-advanced-playground.git"
   },
-  "keywords": [
-    "React",
-    "ES6",
-    "Jest",
-    "Webpack"
-  ],
+  "keywords": ["React", "ES6", "Jest", "Webpack", "Server-side Rendering"],
   "author": "Aviral Mishra (aviral.mishra@gmail.com)",
   "license": "MIT",
   "bugs": {
@@ -24,11 +20,7 @@
   },
   "homepage": "https://github.com/aviralmishra/react-es6-advanced-playground#readme",
   "babel": {
-    "presets": [
-      "react",
-      "env",
-      "stage-2"
-    ]
+    "presets": ["react", "env", "stage-2"]
   },
   "devDependencies": {
     "babel-eslint": "8.0.3",
@@ -44,6 +36,7 @@
     "babel-preset-stage-2": "6.24.1",
     "ejs": "2.5.7",
     "express": "4.16.2",
+    "jest": "21.2.1",
     "pm2": "2.8.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",

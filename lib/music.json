@@ -1,0 +1,74 @@
+{
+  "data": {
+    "artists": [{
+        "id": "artist-1001",
+        "name": "Joshua Radin",
+        "description": "Joshua Radin is an American singer-songwriter. He has recorded seven studio albums, and his songs have been used in numerous films and TV series.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Joshua_Radin",
+        "image": "https://en.wikipedia.org/wiki/Joshua_Radin#/media/File:Joshua_Radin.jpg"
+      },
+      {
+        "id": "artist-1002",
+        "name": "John Mayer",
+        "description": "John Clayton Mayer is an American singer-songwriter, guitarist, and producer.",
+        "wikipedia": "https://en.wikipedia.org/wiki/John_Mayer",
+        "image": "https://en.wikipedia.org/wiki/John_Mayer#/media/File:John_Mayer_live_in_2007_01.png"
+      },
+      {
+        "id": "artist-1003",
+        "name": "William Fitzsimmons",
+        "description": "William Fitzsimmons is an American singer-songwriter based in Illinois.",
+        "wikipedia": "https://en.wikipedia.org/wiki/William_Fitzsimmons_(musician)",
+        "image": "https://en.wikipedia.org/wiki/William_Fitzsimmons_(musician)#/media/File:William_Fitzsimmons_at_Schubas.jpg"
+      }
+    ],
+    "albums": [{
+        "id": "album-1001",
+        "name": "We Were Here",
+        "description": "We Were Here is the first full-length album by American singer-songwriter Joshua Radin. It reached #34 on the Top Heatseekers Chart. The singer-songwriter released a cover of the song      Only You as a bonus song.",
+        "released": "2006",
+        "art": "https://en.wikipedia.org/wiki/We_Were_Here_(Joshua_Radin_album)#/media/File:Joshua_Radin_We_Were_Here_cover.jpg",
+        "artist_id": "artist-1001"
+      },
+      {
+        "id": "album-1002",
+        "name": "Simple Times",
+        "description": "Simple Times is the second studio album by American folk musician Joshua Radin. It was released on September 9, 2008 on iTunes and in stores on September 30, 2008.",
+        "released": "2010",
+        "art": "https://en.wikipedia.org/wiki/Simple_Times#/media/File:JoshuaRadinSimpleTimes.jpg",
+        "artist": "artist-1001"
+      },
+      {
+        "id": "album-1003",
+        "name": "Wax Wings",
+        "description": "Joshua Radin's fifth studio album Wax Wings was released May 7, 2013. Wax Wings, a self-released album, has eleven tracks. Included on the album is the song Lovely Tonight, which had been previously released on iTunes as a single.",
+        "released": "2013",
+        "artist": "artist-1001"
+      },
+      {
+        "id": "album-1004",
+        "name": "Heavier Things",
+        "description": "Heavier Things is the second studio album by American musician John Mayer, released September 9, 2003 on Columbia Records in the United States. The title of the album itself is a subtle response to certain criticism of Mayer's music. The album debuted at number one on the U.S. Billboard 200 chart, selling 317,000 copies in its first week. Despite some negative criticism towards Mayer's songwriting, Heavier Things received generally positive reviews from music critics.",
+        "released": "2003",
+        "art": "https://en.wikipedia.org/wiki/Heavier_Things#/media/File:Heavierthings.johnmayer.albumcover.jpg",
+        "artist": "artist-1002"
+      },
+      {
+        "id": "album-1005",
+        "name": "Gold in the Shadow",
+        "description": "Gold in the Shadow has 12 singles by William Fitzsimmons.",
+        "released": "2011",
+        "art": "",
+        "artist": "artist-1003"
+      },
+      {
+        "id": "album-1006",
+        "name": "Until When We Are Ghosts",
+        "description": "Until When We Are Ghosts has 11 singles by William Fitzsimmons.",
+        "released": "2005",
+        "art": "",
+        "artist": "artist-1003"
+      }
+    ]
+  }
+}

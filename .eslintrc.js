@@ -4,6 +4,7 @@ module.exports = {
     "browser": true,
     "commonjs": true,
     "es6": true,
+    "jest": true,
     "node": true
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
@@ -14,13 +15,15 @@ module.exports = {
     },
     "sourceType": "module"
   },
-  "plugins": [ "react" ],
+  "plugins": ["react"],
   "rules": {
     "react/prop-types": ["off"],
     "indent": ["error", 2],
-    "linebreak-style": ["error","unix"],
-    "quotes": ["error","single"],
-    "semi": ["error","always"],
-    "no-console": ["warn", { "allow": ["info", "error"] }]
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-console": ["warn", {
+      "allow": ["info", "error"]
+    }]
   }
 };
