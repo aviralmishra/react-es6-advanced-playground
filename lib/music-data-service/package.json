@@ -1,0 +1,12 @@
+{
+  "name": "music-data-service",
+  "version": "1.0.0",
+  "description": "Service to fetch music data",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": "aviralmishra/music-data-service",
+  "author": "Aviral Mishra (aviral.mishra@gmail.com)",
+  "license": "MIT"
+}
