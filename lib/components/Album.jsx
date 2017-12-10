@@ -46,9 +46,7 @@ const Album = (props) => {
     <div style={styles.artist}>
       <a href={artist.wikipedia}>{artist.name}</a>
     </div>
-    <div style={styles.date}>
-      {formatDate(album.released)}
-    </div>
+    <div style={styles.date}>{formatDate(album.released)}</div>
     <div style={styles.description}>{album.description}</div>
   </div>);
 };
