@@ -4,7 +4,7 @@ Playground for advanced React features such as Server-side rendering
 
 ## Pre Reqs
 
-PM2 (<https://www.npmjs.com/package/pm2>)
+[PM2](https://www.npmjs.com/package/pm2)
 
 ```
 npm install pm2 -g
@@ -40,6 +40,4 @@ npm run test
 
 ## Helpful Resources
 
-```
-https://orktes.github.io/atom-react/
-```
+1. [atom-react](https://orktes.github.io/atom-react/)

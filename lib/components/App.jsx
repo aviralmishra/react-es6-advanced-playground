@@ -17,7 +17,7 @@ class App extends React.Component {
   }
 
   albumActions = {
-    findArtist: artistId => this.state.artists[artistId]
+    findArtist: (artistId) => this.state.artists[artistId]
   }
 
   render() {

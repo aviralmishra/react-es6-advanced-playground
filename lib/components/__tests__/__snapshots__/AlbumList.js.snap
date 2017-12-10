@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Album list renders correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "borderBottomColor": "#f60",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "fontFamily": "Verdana, Geneva, sans-serif",
+        "fontSize": 12,
+        "marginBottom": 10,
+        "paddingBottom": 10,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "color": "#c36",
+          "display": "inline",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingRight": 10,
+        }
+      }
+    >
+      We Were Here
+    </div>
+    <div
+      style={
+        Object {
+          "display": "inline",
+          "paddingBottom": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <a
+        href={undefined}
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "color": "#06f",
+          "display": "inline",
+          "fontSize": "0.90em",
+          "fontWeight": "bold",
+          "paddingRight": 10,
+        }
+      }
+    >
+      Invalid Date
+    </div>
+    <div
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "borderBottomColor": "#f60",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "fontFamily": "Verdana, Geneva, sans-serif",
+        "fontSize": 12,
+        "marginBottom": 10,
+        "paddingBottom": 10,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "color": "#c36",
+          "display": "inline",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingRight": 10,
+        }
+      }
+    >
+      Simple Times
+    </div>
+    <div
+      style={
+        Object {
+          "display": "inline",
+          "paddingBottom": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <a
+        href={undefined}
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "color": "#06f",
+          "display": "inline",
+          "fontSize": "0.90em",
+          "fontWeight": "bold",
+          "paddingRight": 10,
+        }
+      }
+    >
+      Invalid Date
+    </div>
+    <div
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    />
+  </div>
+</div>
+`;

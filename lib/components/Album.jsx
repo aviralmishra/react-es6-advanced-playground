@@ -3,23 +3,32 @@ import React from 'react';
 const styles = {
   album: {
     fontFamily: 'Verdana, Geneva, sans-serif',
-    fontSize: 13,
+    fontSize: 12,
     paddingBottom: 10,
     borderBottomStyle: 'solid',
-    borderBottomColor: '#aaa',
+    borderBottomColor: '#f60',
     borderBottomWidth: 1,
     marginBottom: 10
   },
   title: {
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: 16,
+    color: '#c36',
+    display: 'inline',
+    paddingRight: 10
   },
   date: {
-    fontSize: '0.85em',
-    color: '#888'
+    fontSize: '0.90em',
+    color: '#06f',
+    fontWeight: 'bold',
+    display: 'inline',
+    paddingRight: 10
   },
   artist: {
     paddingTop: 10,
-    paddingBottom: 10
+    paddingBottom: 10,
+    display: 'inline',
+    paddingRight: 10
   },
   description: {
     paddingLeft: 20
