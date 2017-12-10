@@ -12,7 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/aviralmishra/react-es6-advanced-playground.git"
   },
-  "keywords": ["React", "ES6", "Jest", "Webpack", "Server-side Rendering"],
+  "keywords": [
+    "React",
+    "ES6",
+    "Jest",
+    "Webpack",
+    "Server-side Rendering"
+  ],
   "author": "Aviral Mishra (aviral.mishra@gmail.com)",
   "license": "MIT",
   "bugs": {
@@ -20,7 +26,11 @@
   },
   "homepage": "https://github.com/aviralmishra/react-es6-advanced-playground#readme",
   "babel": {
-    "presets": ["react", "env", "stage-2"]
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
   },
   "devDependencies": {
     "babel-eslint": "8.0.3",
@@ -38,6 +48,7 @@
     "express": "4.16.2",
     "jest": "21.2.1",
     "pm2": "2.8.0",
+    "prop-types": "15.6.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "webpack": "3.10.0"

@@ -18,10 +18,16 @@ git clone git@github.com:aviralmishra/react-es6-advanced-playground.git
 npm install
 ```
 
-## Dev Run
+## Dev Server Run
 
 ```
 npm run dev
+```
+
+## Dev Web Run
+
+```
+npm run webpack
 ```
 
 ## Test
@@ -31,3 +37,9 @@ npm run test
 ```
 
 ## Prod Run
+
+## Helpful Resources
+
+```
+https://orktes.github.io/atom-react/
+```
