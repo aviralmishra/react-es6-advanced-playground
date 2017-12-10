@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MusicApi from '../MusicApi';
+import MusicApi from 'music-data-service';
 import {data} from '../music';
 
 import AlbumList from './AlbumList.jsx';
