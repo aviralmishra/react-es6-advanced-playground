@@ -38,8 +38,8 @@ const styles = {
 const formatDate = (dateString) => new Date(dateString).toDateString();
 
 const Album = (props) => {
-  const {album, actions} = props;
-  const artist = actions.findArtist(album.artistId);
+  const {album, store} = props;
+  const artist = store.findArtistById(album.artistId);
 
   return (<div style={styles.album}>
     <div style={styles.title}>{album.title}</div>

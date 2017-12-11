@@ -1,27 +1,12 @@
 import React from 'react';
 
-import MusicApi from 'music-data-service';
-import {data} from '../music';
-
 import AlbumList from './AlbumList.jsx';
 
-const api = new MusicApi(data);
-
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      artists: api.getArtists(),
-      albums: api.getAlbums()
-    };
-  }
-
-  albumActions = {
-    findArtist: (artistId) => this.state.artists[artistId]
-  }
+  state = this.props.store.getState();
 
   render() {
-    return (<AlbumList albums={this.state.albums} albumActions={this.albumActions}/>);
+    return (<AlbumList albums={this.state.albums} store={this.props.store}/>);
   }
 }
 
