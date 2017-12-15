@@ -1,128 +1,182 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Album list renders correctly 1`] = `
-<div>
-  <div
-    style={
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AlbumList
+    albums={
       Object {
-        "borderBottomColor": "#f60",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "fontFamily": "Verdana, Geneva, sans-serif",
-        "fontSize": 12,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+        "album-1001": Object {
+          "artistId": "artist-1001",
+          "description": "We Were Here is the first album by Joshua Radin.",
+          "id": "album-1001",
+          "released": "2006-06-13",
+          "title": "We Were Here",
+        },
+        "album-1002": Object {
+          "artistId": "artist-1002",
+          "description": "Simple Times is the second album by Joshua Radin.",
+          "id": "album-1002",
+          "released": "2008-09-09",
+          "title": "Simple Times",
+        },
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "color": "#c36",
-          "display": "inline",
-          "fontSize": 16,
-          "fontWeight": "bold",
-          "paddingRight": 10,
-        }
-      }
-    >
-      We Were Here
-    </div>
-    <div
-      style={
-        Object {
-          "display": "inline",
-          "paddingBottom": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      />
-    </div>
-    <div
-      style={
-        Object {
-          "color": "#06f",
-          "display": "inline",
-          "fontSize": "0.90em",
-          "fontWeight": "bold",
-          "paddingRight": 10,
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-  <div
-    style={
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <AlbumContainer
+          album={
+            Object {
+              "artistId": "artist-1001",
+              "description": "We Were Here is the first album by Joshua Radin.",
+              "id": "album-1001",
+              "released": "2006-06-13",
+              "title": "We Were Here",
+            }
+          }
+        />,
+        <AlbumContainer
+          album={
+            Object {
+              "artistId": "artist-1002",
+              "description": "Simple Times is the second album by Joshua Radin.",
+              "id": "album-1002",
+              "released": "2008-09-09",
+              "title": "Simple Times",
+            }
+          }
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
       Object {
-        "borderBottomColor": "#f60",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "fontFamily": "Verdana, Geneva, sans-serif",
-        "fontSize": 12,
-        "marginBottom": 10,
-        "paddingBottom": 10,
-      }
-    }
-  >
-    <div
-      style={
+        "instance": null,
+        "key": "album-1001",
+        "nodeType": "class",
+        "props": Object {
+          "album": Object {
+            "artistId": "artist-1001",
+            "description": "We Were Here is the first album by Joshua Radin.",
+            "id": "album-1001",
+            "released": "2006-06-13",
+            "title": "We Were Here",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "album-1002",
+        "nodeType": "class",
+        "props": Object {
+          "album": Object {
+            "artistId": "artist-1002",
+            "description": "Simple Times is the second album by Joshua Radin.",
+            "id": "album-1002",
+            "released": "2008-09-09",
+            "title": "Simple Times",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <AlbumContainer
+            album={
+              Object {
+                "artistId": "artist-1001",
+                "description": "We Were Here is the first album by Joshua Radin.",
+                "id": "album-1001",
+                "released": "2006-06-13",
+                "title": "We Were Here",
+              }
+            }
+          />,
+          <AlbumContainer
+            album={
+              Object {
+                "artistId": "artist-1002",
+                "description": "Simple Times is the second album by Joshua Radin.",
+                "id": "album-1002",
+                "released": "2008-09-09",
+                "title": "Simple Times",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
-          "color": "#c36",
-          "display": "inline",
-          "fontSize": 16,
-          "fontWeight": "bold",
-          "paddingRight": 10,
-        }
-      }
-    >
-      Simple Times
-    </div>
-    <div
-      style={
+          "instance": null,
+          "key": "album-1001",
+          "nodeType": "class",
+          "props": Object {
+            "album": Object {
+              "artistId": "artist-1001",
+              "description": "We Were Here is the first album by Joshua Radin.",
+              "id": "album-1001",
+              "released": "2006-06-13",
+              "title": "We Were Here",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
-          "display": "inline",
-          "paddingBottom": 10,
-          "paddingRight": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      />
-    </div>
-    <div
-      style={
-        Object {
-          "color": "#06f",
-          "display": "inline",
-          "fontSize": "0.90em",
-          "fontWeight": "bold",
-          "paddingRight": 10,
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-</div>
+          "instance": null,
+          "key": "album-1002",
+          "nodeType": "class",
+          "props": Object {
+            "album": Object {
+              "artistId": "artist-1002",
+              "description": "Simple Times is the second album by Joshua Radin.",
+              "id": "album-1002",
+              "released": "2008-09-09",
+              "title": "Simple Times",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
