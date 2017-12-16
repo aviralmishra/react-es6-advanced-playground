@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
 
-## Dev Web Run
+## Dev Web Run & Watch
 
 ```
 npm run webpack
@@ -36,7 +36,24 @@ npm run webpack
 npm run test
 ```
 
+## Test Coverage
+
+```
+npm run verify-tests
+```
+
+## Prod Build
+
+```
+npm run build-webpack
+npm run build-node
+```
+
 ## Prod Run
+
+```
+npm run start-prod
+```
 
 ## Helpful Resources
 
