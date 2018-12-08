@@ -10,7 +10,9 @@
     "verify-tests": "NODE_PATH=./lib jest --coverage",
     "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files",
-    "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProd"
+    "start-prod": "NODE_ENV=production NODE_PATH=./build pm2 start build/server.js -i max --name appProd",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,13 +34,20 @@
   "homepage": "https://github.com/aviralmishra/react-es6-advanced-playground#readme",
   "babel": {
     "presets": [
-      "react", ["env", {
-        "targets": {
-          "node": "current"
+      "react",
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
         }
-      }]
+      ]
     ],
-    "plugins": ["transform-class-properties", "transform-object-rest-spread"]
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
@@ -61,10 +70,12 @@
     "express": "^4.16.2",
     "lodash.debounce": "^4.0.8",
     "lodash.pickby": "^4.6.0",
-    "pm2": "^2.9.1",
+    "pm2": "^2.10.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "webpack": "^3.10.0"
-  }
+    "react-dom": "^16.2.1",
+    "webpack": "^3.10.0",
+    "snyk": "^1.116.2"
+  },
+  "snyk": true
 }
